@@ -1,0 +1,213 @@
+.sect1-dr-clinic_text {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffc107;
+}
+.welcome-sec-1 {
+    color: #ffc107;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    text-shadow: 3px 2px rgb(0 123 255 / 50%);
+}
+.about {
+    padding: 100px 0;
+}
+
+.about .heading h2 {
+    font-size: 34px;
+    font-weight: 700;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 0px 0px 50px;
+    color: #5b8eea;
+    text-shadow: 2px 0px 8px #ffc107;
+}
+
+.about .heading h2 span {
+    color: #F24259;
+}
+
+.about .heading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 60px;
+    padding: 0;
+}
+
+.about h3 {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+}
+.about_sec_rw2 {
+    padding: 60px 0px 0px;
+}
+.about p {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.7;
+    color: #999999;
+    margin: 20px 0 15px;
+    padding: 0;
+}
+
+.about h4 {
+    font-size: 15px;
+    font-weight: 500;
+    margin: 8px 0;
+}
+
+.about h4 i {
+    color: #F24259;
+    margin-right: 10px;
+}
+.work_title {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    border-bottom: 2px solid #ffc107;
+    width: 20%;
+    line-height: 1.5;
+    margin: auto;
+    margin-bottom: 50px;
+    color: #53aaad;
+}
+
+.about_page #about_hero_sect{
+    background-image: url(./img/about_bg.jpg);
+    background-size: cover;
+    height: auto;
+}
+.about_page .heading-primary-main {
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 15px;
+    color: #419af3;
+    text-shadow: 2px -4px 10px #343a40;
+    text-transform: uppercase;
+}
+.about_page .text-box{padding: 50px 0px; text-align: center;}
+.about_contact {
+    background: green;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.about_contact:hover {
+    color: #fff;
+    background-image: linear-gradient(
+45deg
+, black, transparent);
+}
+
+#work_history {
+    padding: 20px 0px 70px;
+}
+.work_para {
+    font-size: 22px;
+    color: #ccc;
+    font-weight: 500;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.contact-area {
+border-bottom: 1px solid #353C46;
+}
+
+.contact-content p {
+font-size: 15px;
+margin: 30px 0 60px;
+position: relative;
+}
+
+.contact-content p::after {
+background: #353C46;
+bottom: -30px;
+content: "";
+height: 1px;
+left: 50%;
+position: absolute;
+transform: translate(-50%);
+width: 80%;
+}
+
+.contact-content h6 {
+color: #8b9199;
+font-size: 15px;
+font-weight: 400;
+margin-bottom: 10px;
+}
+
+.contact-content span {
+color: #353c47;
+margin: 0 10px;
+}
+
+.contact-social {
+margin-top: 30px;
+margin-bottom: 20px;
+}
+
+.contact-social > ul {
+display: inline-flex;
+}
+
+.contact-social ul li a {
+border: 1px solid #8b9199;
+color: #8b9199;
+display: inline-block;
+height: 40px;
+margin: 0 10px;
+padding-top: 7px;
+transition: all 0.4s ease 0s;
+width: 40px;
+}
+
+.contact-social ul li a:hover {
+border: 1px solid #FAB702;
+color: #FAB702;
+}
+
+.contact-content img {
+max-width: 210px;
+}
+
+/* section, footer {
+background: #1A1E25;
+color: #868c96;
+} */
+
+footer p {
+padding: 40px 0;
+text-align: center;
+}
+
+footer img {
+width: 44px;
+}
+.about_page footer{background: #1A1E25;
+    color: #868c96;}
+.contact-area{background: #1A1E25;
+    color: #868c96;}
+
+@media(max-width: 480px){
+    .about-li {
+        padding: 10px 0px;
+    }
+    
+    .about-li li {
+        font-size: 20px;
+    }
+    .work_title{width: 75%;}
+}
